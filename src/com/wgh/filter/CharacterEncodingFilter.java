@@ -7,10 +7,6 @@ package com.wgh.filter;
 import java.io.IOException;
 import javax.servlet.*;
 
-
-
-
-
 public class CharacterEncodingFilter implements Filter{
  
     protected String encoding = null;
